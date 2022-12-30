@@ -9,9 +9,9 @@ COPY rootfs /
 
 # Expose port for FS22 Webserver
 
-EXPOSE 8080/tcp
+EXPOSE 4030/tcp
 
 # Expose port for the FS22 Gameserver
-EXPOSE 10823/tcp
-EXPOSE 10823/udp
+EXPOSE 4031/tcp
+EXPOSE 4031/udp
 
